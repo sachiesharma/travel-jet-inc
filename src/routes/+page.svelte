@@ -2,6 +2,8 @@
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
+	import LocationCard from '$lib/components/LocationCard.svelte';
+	import { destinations } from '$lib/data/destinations';
 </script>
 
 <!-- the Container-->
@@ -25,12 +27,9 @@
 </div>
 
 <!-- Body -->
-<div class="">
-	<h1 class="text-4xl font-bold flex flex-col gap-8 pr-32 pl-16 py-40">India</h1>
-	<h1 class="text-4xl font-bold flex flex-col gap-8 pr-32 pl-16 py-40">North America</h1>
-	<h1 class="text-4xl font-bold flex flex-col gap-8 pr-32 pl-16 py-40">Europe</h1>
-	<h1 class="text-4xl font-bold flex flex-col gap-8 pr-32 pl-16 py-40">Asia</h1>
-</div>
+
+{#each destinations as destination (destination.id)}
+	<LocationCard {destination} />{/each}
 
 <Footer />
 
