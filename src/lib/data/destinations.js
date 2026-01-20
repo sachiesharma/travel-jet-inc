@@ -132,17 +132,19 @@ export const destinations = [
 	},
 	{
 		id: 9,
-		destination: 'Iceland',
-		image: 'https://images.unsplash.com/photo-1494564605686-2e931f77a8e0?w=800&q=80',
+		destination: 'India - Golden Triangle & Pilgrimage Tours',
+		image:
+			'https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 		price: '$1,799',
 		duration: '7 Days / 6 Nights',
-		description: 'Witness the Northern Lights and explore dramatic landscapes of fire and ice',
+		description:
+			'Explore the spiritual heart of India with visits to the Taj Mahal, Varanasis sacred ghats, Haridwar, Rishikesh, and the Golden Temple. Experience the rich culture, ancient temples, and timeless traditions of the subcontinent',
 		rating: 4.85,
 		reviews: 367,
 		tags: ['Adventure', 'Nature', 'Photography'],
 		featured: false,
 		discount: 15,
-		highlights: ['Northern Lights', 'Blue Lagoon', 'Golden Circle', 'Glacier Walk'],
+		highlights: ['Delhi, Agra, Jaipur, Varanasi, Haridwar, Amritsar'],
 		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
 		bestTime: 'Sep-Mar (Northern Lights)'
 	},
@@ -161,5 +163,25 @@ export const destinations = [
 		highlights: ['Table Mountain', 'Cape of Good Hope', 'Wine Tasting', 'Robben Island'],
 		included: ['Flights', 'Hotel', 'Safari Day Trip', 'City Tour'],
 		bestTime: 'Oct-Apr'
+	},
+	{
+		id: 10,
+		destination: 'Trinidad, Tobago, Barbados & Guyana - Caribbean Roots Tour',
+		image:
+			'https://images.unsplash.com/photo-1594005039392-53c38b667641?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		price: '$1,799',
+		duration: '7 Days / 6 Nights',
+		description:
+			'Reconnect with your heritage and explore the vibrant cultures of the Caribbean and South America. Experience Trinidads Carnival spirit, Tobagos pristine beaches, Barbados warm hospitality, and Guyanas natural wonders. Visit family, enjoy authentic Caribbean cuisine, and immerse yourself in the rich Indo-Caribbean traditions that make these destinations feel like home.',
+		rating: 4.85,
+		reviews: 367,
+		tags: ['Adventure', 'Nature', 'Photography'],
+		featured: false,
+		discount: 15,
+		highlights: [
+			'Port of Spain, Tobago beaches, Bridgetown, Kaieteur Falls, Georgetown, family visits, local festivals, authentic roti and curry'
+		],
+		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
+		bestTime: 'Sep-Mar (Northern Lights)'
 	}
 ];
