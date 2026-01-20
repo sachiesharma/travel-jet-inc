@@ -17,7 +17,8 @@
 			<small class="text-sm font-bold text-blue-600">Making travelling easier every day.</small>
 			<div class="flex gap-3">
 				<button class="bg-blue-600 px-5 py-3 text-white rounded-lg">Plan your Trip</button>
-				<button class="border border-blue-600 text-blue-600 px-5 py-3 rounded-lg">Contact Us</button
+				<button class="border border-blue-600 bg-[#FFF6EF] text-blue-600 px-5 py-3 rounded-lg"
+					>Contact Us</button
 				>
 			</div>
 		</div>

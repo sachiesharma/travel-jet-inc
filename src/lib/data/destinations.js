@@ -146,7 +146,7 @@ export const destinations = [
 		discount: 15,
 		highlights: ['Delhi, Agra, Jaipur, Varanasi, Haridwar, Amritsar'],
 		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
-		bestTime: 'Sep-Mar (Northern Lights)'
+		bestTime: 'Oct-Mar'
 	},
 	{
 		id: 10,
@@ -165,7 +165,27 @@ export const destinations = [
 		bestTime: 'Oct-Apr'
 	},
 	{
-		id: 10,
+		id: 11,
+		destination: 'USA, Canada & UK - Family Visit Tours',
+		image:
+			'https://images.unsplash.com/photo-1606516397986-1eeb79e8c052?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		price: '$1,799',
+		duration: '7 Days / 6 Nights',
+		description:
+			'Combine visiting loved ones with unforgettable sightseeing experiences. Whether your family is in New York, Toronto, London, or anywhere else, well help you make the most of your trip with carefully planned itineraries that blend family time with iconic attractions. From Niagara Falls to the Statue of Liberty, Buckingham Palace to the CN Tower, create lasting memories with those who matter most.',
+		rating: 4.85,
+		reviews: 367,
+		tags: ['Adventure', 'Nature', 'Photography'],
+		featured: false,
+		discount: 15,
+		highlights: [
+			'New York City, Niagara Falls, Toronto, Vancouver, London, Edinburgh, major city tours, flexible itineraries for family time'
+		],
+		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
+		bestTime: 'Late Aug-Mar'
+	},
+	{
+		id: 12,
 		destination: 'Trinidad, Tobago, Barbados & Guyana - Caribbean Roots Tour',
 		image:
 			'https://images.unsplash.com/photo-1594005039392-53c38b667641?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -182,6 +202,24 @@ export const destinations = [
 			'Port of Spain, Tobago beaches, Bridgetown, Kaieteur Falls, Georgetown, family visits, local festivals, authentic roti and curry'
 		],
 		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
-		bestTime: 'Sep-Mar (Northern Lights)'
+		bestTime: 'Late Aug-Mar'
+	},
+	{
+		id: 13,
+		destination: 'Caribbean Cruises - Island Paradise',
+		image:
+			'https://images.unsplash.com/photo-1638832406094-b7c061f7e02e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		price: '$1,799',
+		duration: '7 Days / 6 Nights',
+		description:
+			'Sail through crystal-clear waters and visit multiple Caribbean islands in one unforgettable journey. Perfect for those who love the sea, sunshine, and hassle-free travel with all amenities onboard.',
+		rating: 4.85,
+		reviews: 367,
+		tags: ['Adventure', 'Nature', 'Photography'],
+		featured: false,
+		discount: 15,
+		highlights: ['Multiple islands, all-inclusive dining, entertainment, excursions'],
+		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
+		bestTime: 'Late Aug-Mar'
 	}
 ];
