@@ -25,13 +25,13 @@
 				<div class="flex gap-3">
 					<a
 						href="#destinations"
-						class="bg-[#FF5E1A] px-6 py-3 text-[#FFF6EF] rounded-lg hover:bg-[#e54d0f] transition font-questrial inline-block text-center"
+						class="bg-[#FF5E1A] px-6 py-3 text-[#FFF6EF] rounded-lg hover:bg-[#e54d0f] transition font-questrial flex items-center justify-center"
 					>
 						Plan your Trip
 					</a>
 					<a
 						href="#contact"
-						class="border-2 border-[#02CA81] bg-transparent text-[#02CA81] px-6 py-3 rounded-lg hover:bg-[#02CA81] hover:text-[#FFF6EF] transition font-questrial inline-block text-center"
+						class="border-2 border-[#02CA81] bg-transparent text-[#02CA81] px-6 py-3 rounded-lg hover:bg-[#02CA81] hover:text-[#FFF6EF] transition font-questrial flex items-center justify-center"
 					>
 						Contact Us
 					</a>
