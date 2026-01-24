@@ -4,20 +4,20 @@
 
 <header class="header">
 	<h1>
-		<button class="nav-button" aria-label="Go to Home">Travel Jet Inc.</button>
+		<a href="/" class="nav-button" aria-label="Go to Home">Travel Jet Inc.</a>
 	</h1>
 	<nav>
 		<ul class="nav-links">
-			<li><button class="nav-button">Home</button></li>
-			<li><button class="nav-button"></button>About</li>
-			<li><button class="nav-button"></button>Contact</li>
+			<li><a href="#home" class="nav-button">Home</a></li>
+			<li><a href="#about" class="nav-button">About</a></li>
+			<li><a href="#contact" class="nav-button">Contact</a></li>
 		</ul>
 	</nav>
 </header>
 
 <style>
 	.header {
-		background-color: rgb(255, 246, 239);
+		background-color: rgb(255, 255, 255);
 		color: black;
 		padding: 1rem;
 		display: flex;
@@ -31,12 +31,18 @@
 		gap: 3rem;
 	}
 
-	.nav-links a {
-		color: white;
+	.nav-button {
+		color: black;
 		text-decoration: none;
+		cursor: pointer;
+		background: none;
+		border: none;
+		font-size: inherit;
+		font-family: inherit;
 	}
 
-	.nav-links a:hover {
+	.nav-button:hover {
 		text-decoration: underline;
+		color: rgb(37, 99, 235); /* blue-600 */
 	}
 </style>

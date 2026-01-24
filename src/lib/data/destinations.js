@@ -221,5 +221,43 @@ export const destinations = [
 		highlights: ['Multiple islands, all-inclusive dining, entertainment, excursions'],
 		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
 		bestTime: 'Late Aug-Mar'
+	},
+	{
+		id: 14,
+		destination: 'Europe Highlights - Classic Grand Tour',
+		image:
+			'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		price: '$1,799',
+		duration: '7 Days / 6 Nights',
+		description:
+			'Discover the romance of Paris, the Swiss Alps, Londons historic landmarks, and Italys timeless beauty. Perfect for first-time visitors who want to experience Europes most iconic destinations in comfort.',
+		rating: 4.85,
+		reviews: 367,
+		tags: ['Adventure', 'Nature', 'Photography'],
+		featured: false,
+		discount: 15,
+		highlights: ['Paris, Swiss Alps, London, Rome, Venice'],
+		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
+		bestTime: 'Late Aug-Mar'
+	},
+	{
+		id: 15,
+		destination: 'Thailand, Vietnam & Cambodia - Southeast Asia Grand Tour',
+		image:
+			'https://images.unsplash.com/photo-1540525080980-b97c4be3c779?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		price: '$1,799',
+		duration: '7 Days / 6 Nights',
+		description:
+			'Experience the best of three magnificent countries in one unforgettable journey. From Bangkoks golden temples to Angkor Wats ancient wonders and Vietnams stunning Halong Bay, discover the rich history, vibrant cultures, and breathtaking landscapes of Southeast Asia. Enjoy delicious cuisine, warm hospitality, and incredible value on this comprehensive tour.',
+		rating: 4.85,
+		reviews: 367,
+		tags: ['Adventure', 'Nature', 'Photography'],
+		featured: false,
+		discount: 15,
+		highlights: [
+			'Bangkoks Grand Palace, Angkor Wat temples, Halong Bay cruise, Ho Chi Minh City, Mekong Delta, Phuket beaches, Siem Reap, Hanoi'
+		],
+		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
+		bestTime: 'Late Aug-Mar'
 	}
 ];
