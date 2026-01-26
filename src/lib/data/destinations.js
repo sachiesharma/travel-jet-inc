@@ -134,18 +134,18 @@ export const destinations = [
 		id: 9,
 		destination: 'India - Golden Triangle & Pilgrimage Tours',
 		image:
-			'https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		price: '$1,799',
-		duration: '7 Days / 6 Nights',
+			'https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=2952&auto=format&fit=crop',
+		price: '$1,899',
+		duration: '10 Days / 9 Nights',
 		description:
-			'Explore the spiritual heart of India with visits to the Taj Mahal, Varanasis sacred ghats, Haridwar, Rishikesh, and the Golden Temple. Experience the rich culture, ancient temples, and timeless traditions of the subcontinent',
+			"Explore the spiritual heart of India with visits to the Taj Mahal, Varanasi's sacred ghats, Haridwar, Rishikesh, and the Golden Temple. Experience the rich culture, ancient temples, and timeless traditions of the subcontinent",
 		rating: 4.85,
 		reviews: 367,
-		tags: ['Adventure', 'Nature', 'Photography'],
-		featured: false,
+		tags: ['Culture', 'Spiritual', 'Heritage'],
+		featured: true,
 		discount: 15,
-		highlights: ['Delhi, Agra, Jaipur, Varanasi, Haridwar, Amritsar'],
-		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
+		highlights: ['Taj Mahal', 'Golden Temple', 'Varanasi Ghats', 'Haridwar Aarti'],
+		included: ['Flights', 'Hotels', 'Guide', 'Breakfast'],
 		bestTime: 'Oct-Mar'
 	},
 	{
@@ -168,96 +168,95 @@ export const destinations = [
 		id: 11,
 		destination: 'USA, Canada & UK - Family Visit Tours',
 		image:
-			'https://images.unsplash.com/photo-1606516397986-1eeb79e8c052?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		price: '$1,799',
-		duration: '7 Days / 6 Nights',
+			'https://images.unsplash.com/photo-1606516397986-1eeb79e8c052?q=80&w=2064&auto=format&fit=crop',
+		price: '$2,199',
+		duration: '10 Days / 9 Nights',
 		description:
-			'Combine visiting loved ones with unforgettable sightseeing experiences. Whether your family is in New York, Toronto, London, or anywhere else, well help you make the most of your trip with carefully planned itineraries that blend family time with iconic attractions. From Niagara Falls to the Statue of Liberty, Buckingham Palace to the CN Tower, create lasting memories with those who matter most.',
-		rating: 4.85,
-		reviews: 367,
-		tags: ['Adventure', 'Nature', 'Photography'],
+			"Combine visiting loved ones with unforgettable sightseeing experiences. Whether your family is in New York, Toronto, London, or anywhere else, we'll help you make the most of your trip with carefully planned itineraries that blend family time with iconic attractions.",
+		rating: 4.8,
+		reviews: 412,
+		tags: ['Family', 'Sightseeing', 'Multi-City'],
 		featured: false,
-		discount: 15,
-		highlights: [
-			'New York City, Niagara Falls, Toronto, Vancouver, London, Edinburgh, major city tours, flexible itineraries for family time'
-		],
+		discount: 10,
+		highlights: ['Niagara Falls', 'Statue of Liberty', 'CN Tower', 'Buckingham Palace'],
 		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
-		bestTime: 'Late Aug-Mar'
+		bestTime: 'May-Sep'
 	},
 	{
 		id: 12,
 		destination: 'Trinidad, Tobago, Barbados & Guyana - Caribbean Roots Tour',
 		image:
-			'https://images.unsplash.com/photo-1594005039392-53c38b667641?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		price: '$1,799',
-		duration: '7 Days / 6 Nights',
+			'https://images.unsplash.com/photo-1594005039392-53c38b667641?q=80&w=2831&auto=format&fit=crop',
+		price: '$1,999',
+		duration: '10 Days / 9 Nights',
 		description:
-			'Reconnect with your heritage and explore the vibrant cultures of the Caribbean and South America. Experience Trinidads Carnival spirit, Tobagos pristine beaches, Barbados warm hospitality, and Guyanas natural wonders. Visit family, enjoy authentic Caribbean cuisine, and immerse yourself in the rich Indo-Caribbean traditions that make these destinations feel like home.',
-		rating: 4.85,
-		reviews: 367,
-		tags: ['Adventure', 'Nature', 'Photography'],
+			"Reconnect with your heritage and explore the vibrant cultures of the Caribbean and South America. Experience Trinidad's Carnival spirit, Tobago's pristine beaches, Barbados' warm hospitality, and Guyana's natural wonders.",
+		rating: 4.7,
+		reviews: 289,
+		tags: ['Beach', 'Culture', 'Heritage'],
 		featured: false,
 		discount: 15,
-		highlights: [
-			'Port of Spain, Tobago beaches, Bridgetown, Kaieteur Falls, Georgetown, family visits, local festivals, authentic roti and curry'
-		],
-		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
-		bestTime: 'Late Aug-Mar'
+		highlights: ['Kaieteur Falls', 'Tobago Beaches', 'Carnival Culture', 'Caribbean Cuisine'],
+		included: ['Flights', 'Hotels', 'Island Tours', 'Breakfast'],
+		bestTime: 'Jan-May'
 	},
 	{
 		id: 13,
 		destination: 'Caribbean Cruises - Island Paradise',
 		image:
-			'https://images.unsplash.com/photo-1638832406094-b7c061f7e02e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		price: '$1,799',
+			'https://images.unsplash.com/photo-1638832406094-b7c061f7e02e?q=80&w=1974&auto=format&fit=crop',
+		price: '$1,699',
 		duration: '7 Days / 6 Nights',
 		description:
 			'Sail through crystal-clear waters and visit multiple Caribbean islands in one unforgettable journey. Perfect for those who love the sea, sunshine, and hassle-free travel with all amenities onboard.',
-		rating: 4.85,
-		reviews: 367,
-		tags: ['Adventure', 'Nature', 'Photography'],
-		featured: false,
-		discount: 15,
-		highlights: ['Multiple islands, all-inclusive dining, entertainment, excursions'],
-		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
-		bestTime: 'Late Aug-Mar'
+		rating: 4.9,
+		reviews: 634,
+		tags: ['Cruise', 'Beach', 'All-Inclusive'],
+		featured: true,
+		discount: 20,
+		highlights: [
+			'Multiple Islands',
+			'All-Inclusive Dining',
+			'Water Sports',
+			'Onboard Entertainment'
+		],
+		included: ['Cruise Fare', 'All Meals', 'Entertainment', 'Excursions'],
+		bestTime: 'Dec-Apr'
 	},
 	{
 		id: 14,
 		destination: 'Europe Highlights - Classic Grand Tour',
 		image:
-			'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		price: '$1,799',
-		duration: '7 Days / 6 Nights',
+			'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop',
+		price: '$2,499',
+		duration: '12 Days / 11 Nights',
 		description:
-			'Discover the romance of Paris, the Swiss Alps, Londons historic landmarks, and Italys timeless beauty. Perfect for first-time visitors who want to experience Europes most iconic destinations in comfort.',
+			"Discover the romance of Paris, the Swiss Alps, London's historic landmarks, and Italy's timeless beauty. Perfect for first-time visitors who want to experience Europe's most iconic destinations in comfort.",
 		rating: 4.85,
-		reviews: 367,
-		tags: ['Adventure', 'Nature', 'Photography'],
-		featured: false,
-		discount: 15,
-		highlights: ['Paris, Swiss Alps, London, Rome, Venice'],
-		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
-		bestTime: 'Late Aug-Mar'
+		reviews: 521,
+		tags: ['Multi-City', 'Culture', 'Sightseeing'],
+		featured: true,
+		discount: 10,
+		highlights: ['Eiffel Tower', 'Swiss Alps', 'Big Ben', 'Colosseum'],
+		included: ['Flights', 'Hotels', 'Rail Pass', 'Breakfast'],
+		bestTime: 'Apr-Oct'
 	},
 	{
 		id: 15,
 		destination: 'Thailand, Vietnam & Cambodia - Southeast Asia Grand Tour',
 		image:
-			'https://images.unsplash.com/photo-1540525080980-b97c4be3c779?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		price: '$1,799',
-		duration: '7 Days / 6 Nights',
+			'https://images.unsplash.com/photo-1540525080980-b97c4be3c779?q=80&w=2070&auto=format&fit=crop',
+		price: '$1,599',
+		duration: '12 Days / 11 Nights',
 		description:
-			'Experience the best of three magnificent countries in one unforgettable journey. From Bangkoks golden temples to Angkor Wats ancient wonders and Vietnams stunning Halong Bay, discover the rich history, vibrant cultures, and breathtaking landscapes of Southeast Asia. Enjoy delicious cuisine, warm hospitality, and incredible value on this comprehensive tour.',
-		rating: 4.85,
-		reviews: 367,
-		tags: ['Adventure', 'Nature', 'Photography'],
+			"Experience the best of three magnificent countries in one unforgettable journey. From Bangkok's golden temples to Angkor Wat's ancient wonders and Vietnam's stunning Halong Bay, discover the rich history, vibrant cultures, and breathtaking landscapes of Southeast Asia.",
+		rating: 4.8,
+		reviews: 445,
+		tags: ['Adventure', 'Culture', 'Beach'],
 		featured: false,
 		discount: 15,
-		highlights: [
-			'Bangkoks Grand Palace, Angkor Wat temples, Halong Bay cruise, Ho Chi Minh City, Mekong Delta, Phuket beaches, Siem Reap, Hanoi'
-		],
-		included: ['Flights', 'Hotels', 'Rental Car', 'Breakfast'],
-		bestTime: 'Late Aug-Mar'
+		highlights: ['Angkor Wat', 'Halong Bay', 'Grand Palace', 'Mekong Delta'],
+		included: ['Flights', 'Hotels', 'Tours', 'Breakfast'],
+		bestTime: 'Nov-Mar'
 	}
 ];
