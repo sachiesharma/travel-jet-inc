@@ -4,6 +4,9 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import LocationCard from '$lib/components/LocationCard.svelte';
 	import { destinations } from '$lib/data/destinations';
+	import Contactform from '$lib/components/Contactform.svelte';
+
+	export let form;
 </script>
 
 <!-- the Container-->
@@ -118,59 +121,22 @@
 	</div>
 </section>
 
-<!-- Contact Section -->
-<section id="contact" class="py-16">
-	<div class="container mx-auto px-16">
-		<h2 class="text-4xl font-bold mb-8">Contact Us</h2>
-		<form class="max-w-2xl">
-			<div class="mb-4">
-				<label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
-				<input
-					type="text"
-					id="name"
-					class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-				/>
-			</div>
-
-			<div class="mb-4">
-				<label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
-				<input
-					type="email"
-					id="email"
-					class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-				/>
-			</div>
-
-			<div class="mb-4">
-				<label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
-				<textarea
-					id="message"
-					rows="5"
-					class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-				></textarea>
-			</div>
-
-			<button
-				type="submit"
-				class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-			>
-				Send Message
-			</button>
-		</form>
-	</div>
-</section>
+<Contactform {form} />
 
 <!-- About Section -->
-<section id="about" class="bg-white py-16">
-	<div class="container mx-auto px-16">
-		<h2 class="text-4xl font-bold mb-6">About Travel Jet</h2>
-		<p class="text-gray-700 text-lg mb-4">
-			At Travel Jet, we believe that travel is more than just visiting new places—it's about
-			creating unforgettable memories and experiencing the world's diverse cultures.
+<section id="about" class="py-16 md:py-24 bg-white">
+	<div class="container mx-auto px-6 md:px-16 max-w-4xl text-center">
+		<h2 class="text-4xl md:text-5xl font-light font-avenir text-[#1D0E03] mb-6">
+			About Travel Jet
+		</h2>
+		<p class="text-lg md:text-xl font-questrial text-[#1D0E03] opacity-80 leading-relaxed mb-8">
+			For over a decade, we've been crafting unforgettable journeys for travelers seeking authentic
+			experiences around the world. From the beaches of the Caribbean to the temples of India, we
+			handle every detail so you can focus on making memories.
 		</p>
-		<p class="text-gray-700 text-lg">
-			With over 30 years of experience, we specialize in curated travel experiences that cater to
-			your unique interests and preferences.
+		<p class="text-lg font-questrial text-[#1D0E03] opacity-70 leading-relaxed">
+			Whether you're visiting family abroad, exploring new cultures, or seeking adventure, we're
+			here to make your travel dreams a reality.
 		</p>
 	</div>
 </section>

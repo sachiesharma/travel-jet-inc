@@ -96,7 +96,7 @@
 						<a
 							href="#destinations"
 							class="opacity-70 hover:opacity-100 hover:text-[#02CA81] transition"
-							>India Pilgrimage</a
+							>India Sacred Sites Tour</a
 						>
 					</li>
 					<li>

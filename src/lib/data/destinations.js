@@ -132,7 +132,7 @@ export const destinations = [
 	},
 	{
 		id: 9,
-		destination: 'India - Golden Triangle & Pilgrimage Tours',
+		destination: 'India - Sacred Sites Tour',
 		image:
 			'https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=2952&auto=format&fit=crop',
 		price: '$1,899',
