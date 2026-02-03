@@ -1,6 +1,6 @@
 import { fail } from '@sveltejs/kit';
 import { Resend } from 'resend';
-import { RESEND_API_KEY } from '$env/static/private';
+import { RESEND_API_KEY, CONTACT_EMAIL, CONTACT_FROM } from '$env/static/private';
 
 console.log('API Key loaded:', RESEND_API_KEY ? 'Yes ✓' : 'No ✗');
 
@@ -28,8 +28,8 @@ export const actions = {
 		try {
 			// Send email to travel agency
 			await resend.emails.send({
-				from: 'Travel Jet Contact <onboarding@resend.dev>',
-				to: 'tarajsharma@gmail.com',
+				from: CONTACT_FROM,
+				to: CONTACT_EMAIL,
 				replyTo: email,
 				subject: `${subject} - from ${name}`,
 				html: `
