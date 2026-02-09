@@ -1,12 +1,20 @@
 <script>
-	// import Header from '$lib/components/Header.svelte';
+	// imports ...
 	import Footer from '$lib/components/Footer.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import LocationCard from '$lib/components/LocationCard.svelte';
 	import { destinations } from '$lib/data/destinations';
 	import Contactform from '$lib/components/Contactform.svelte';
+	import Expertise from '$lib/components/Expertise.svelte';
 
-	export let form;
+	/**
+	 * @typedef {Object} FormResult
+	 * @property {boolean} [success]
+	 * @property {string} [error]
+	 */
+
+	/** @type {FormResult|null} */
+	export let form = null;
 </script>
 
 <!-- the Container-->
@@ -91,6 +99,8 @@
 		</div>
 	</div>
 </section>
+
+<Expertise />
 
 <!-- Custom Tours Strip -->
 <section class="bg-[#014B3F] py-12 md:py-16">

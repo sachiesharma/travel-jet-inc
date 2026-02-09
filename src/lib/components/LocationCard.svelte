@@ -1,5 +1,19 @@
 <!-- src/components/LocationCard.svelte -->
 <script>
+	/**
+	 * @type {{
+	 *   id?: number,
+	 *   destination?: string,
+	 *   image?: string,
+	 *   price?: string,
+	 *   duration?: string,
+	 *   description?: string,
+	 *   rating?: number,
+	 *   reviews?: number,
+	 *   highlights?: string[],
+	 *   bestTime?: string
+	 * }}
+	 */
 	export let destination = {};
 </script>
 

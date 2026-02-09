@@ -2,6 +2,13 @@
 <script>
 	import { enhance } from '$app/forms';
 
+	/**
+	 * @typedef {Object} FormResult
+	 * @property {boolean} [success]
+	 * @property {string} [error]
+	 */
+
+	/** @type {FormResult|null} */
 	export let form = null;
 
 	let isSubmitting = false;
